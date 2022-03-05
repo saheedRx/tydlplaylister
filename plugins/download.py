@@ -323,7 +323,7 @@ async def pyro_fsub(c, message, fsub):
         if user.status == "kicked":
             await c.send_message(
                 chat_id=message.chat.id,
-                text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/harp_chat).",
+                text="Sorry, You are Banned to use me. Contact my [OWNER](https://t.me/SAHEEDS_BOTS).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -335,7 +335,7 @@ async def pyro_fsub(c, message, fsub):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Join Now", url="https://t.me/harp_tech")
+                        InlineKeyboardButton("Join Now", url="https://t.me/SAHEEDS_BOTS")
                     ]
                 ]
             )
@@ -345,7 +345,7 @@ async def pyro_fsub(c, message, fsub):
         print(kk)
         await c.send_message(
             chat_id=message.chat.id,
-            text="Something went Wrong. Contact my [Support Group](https://t.me/harp_chat).",
+            text="Something went Wrong. More info at my [Support Channel](https://t.me/SAHEEDS_BOTS).",
             parse_mode="markdown",
             disable_web_page_preview=True)
         return False
